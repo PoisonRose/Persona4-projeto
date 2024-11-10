@@ -1,0 +1,41 @@
+.persona-card{
+    width: 300px;
+    padding: auto;
+    border-radius: 8px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.arcana{
+    background-color: #231918;
+    color: white;
+    font-weight: bolder;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.nome{
+    background-color: #FFFF80;
+    color: #FAA622;
+    font-weight: bold;
+    
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.imagem{
+    width: 200px;
+    height: 200px;
+    display: block;
+
+    border-radius: 5px;
+}
+
+.imagem img{
+    width: auto;
+    height: auto;
+}
