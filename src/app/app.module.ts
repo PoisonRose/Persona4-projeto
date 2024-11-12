@@ -7,6 +7,7 @@ import { HomeComponent } from './paginas/home/home.component';
 import { PerfilComponent } from './componentes/perfil/perfil.component';
 import { PersonaComponent } from './paginas/persona/persona.component';
 import { SkillListComponent } from './paginas/skill-list/skill-list.component';
+import { PesquisaComponent } from './componentes/pesquisa/pesquisa.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { SkillListComponent } from './paginas/skill-list/skill-list.component';
     HomeComponent,
     PerfilComponent,
     PersonaComponent,
-    SkillListComponent
+    SkillListComponent,
+    PesquisaComponent
   ],
   imports: [
     BrowserModule,

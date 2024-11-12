@@ -1,13 +1,23 @@
 <body>
-    <div class="pesquisa">
-        <input type="text" class="barra-pesquisa" placeholder="pesquisar...">
+    <div>
+        <!-- TODO: colocar barra de transição entre páginas HOME(atual) e Skill List -->
     </div>
+
+    <div class="pesquisa">
+        <app-pesquisa class="barra-pesquisa"></app-pesquisa>
+    </div>
+    
     
     <div>
         <app-perfil class="perfil"></app-perfil>
     </div>
     
-    <div>
-        <button>bioujfv</button>
+    <div class="buttons">
+        <div style="padding: 0px 3px;">
+            <button disabled="true" class="button" id="left"> <img src="/icones/Arrow-001.png" alt="right arrow" style="width: 15px; height: 15px;"> </button>
+        </div>
+        <div>
+            <button class="button" id="right"> <img src="/icones/Arrow-002.png" alt="right arrow" style="width: 15px; height: 15px;"></button>
+        </div>
     </div>
 </body>

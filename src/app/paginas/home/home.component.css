@@ -8,14 +8,19 @@ body{
     margin: 20px;
 }
 
-.barra-pesquisa{
-    /* TODO: color imagem no lado esquerdo da barra*/
-    width: 50%;
-    padding: 10px 15px 10px 40px; /* deixe o espaço extra na esquerda para o ícone */
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.button{
+    padding: 10px 20px 10px 20px; /* deixe o espaço extra na esquerda para o ícone */
     border: none;
     border-radius: 5px;
     outline: none;
     background-color: black;
     color: #FFE128;
     font-size:large;
+    justify-content: center;
 }
