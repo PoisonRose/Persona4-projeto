@@ -1,0 +1,31 @@
+.tabela-container{
+    display: flex;
+    justify-content: center;
+}
+
+.barra{
+    background-color: #faa622;
+    border-style: solid;
+    border-color: #faa622;
+
+    width: 80%;
+}
+
+.barra td{
+    width: fit-content;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.items{
+    background-color: black;
+    color: #FFE128;
+    border-style: solid;
+    border-color: black;
+
+    align-items: center;
+}
+
+.proprieade{
+    
+}

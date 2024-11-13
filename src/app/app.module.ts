@@ -8,6 +8,8 @@ import { PerfilComponent } from './componentes/perfil/perfil.component';
 import { PersonaComponent } from './paginas/persona/persona.component';
 import { SkillListComponent } from './paginas/skill-list/skill-list.component';
 import { PesquisaComponent } from './componentes/pesquisa/pesquisa.component';
+import { BarraSkillComponent } from './componentes/barra-skill/barra-skill.component';
+import { PropriedadesSkillsComponent } from './componentes/propriedades-skills/propriedades-skills.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { PesquisaComponent } from './componentes/pesquisa/pesquisa.component';
     PerfilComponent,
     PersonaComponent,
     SkillListComponent,
-    PesquisaComponent
+    PesquisaComponent,
+    BarraSkillComponent,
+    PropriedadesSkillsComponent
   ],
   imports: [
     BrowserModule,
