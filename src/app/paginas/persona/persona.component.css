@@ -1,0 +1,99 @@
+body{
+    background-color: #FFE52C;
+}
+
+.arco-iris{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    align-items: stretch;
+}
+
+.arco-iris td{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    color: transparent;
+}
+
+.arco-iris table{
+    border-collapse: collapse;
+    height: 100%;
+}
+
+#c1 {
+    color: #C9BC72;
+    background-color: #C9BC72;
+  }
+  
+  #c2 {
+    color: #C07907;
+    background-color: #C07907;
+  }
+  
+  #c3 {
+    color: #6DCC0C;
+    background-color: #6DCC0C;
+  }
+  
+  #c4 {
+    color: #916E1A;
+    background-color: #916E1A;
+  }
+  
+  #c5 {
+    color: #86ACA1;
+    background-color: #86ACA1;
+  }
+  
+  #c6 {
+    color: #9C1B08;
+    background-color: #9C1B08;
+  }
+  
+  #c7 {
+    color: #348F04;
+    background-color: #348F04;
+  }
+  
+  #c8 {
+    color: #E89F02;
+    background-color: #E89F02;
+  }
+  
+  #c9 {
+    color: #774007;
+    background-color: #774007;
+  }
+  
+  #c10 {
+    color: #D2AD06;
+    background-color: #D2AD06;
+  }
+  
+  #c11 {
+    color: #5940B8;
+    background-color: #5940B8;
+  }
+  
+  #c12 {
+    color: #AAC9F8;
+    background-color: #AAC9F8;
+  }
+  
+  #c13 {
+    color: #5A0316;
+    background-color: #5A0316;
+  }
+  
+  #c14 {
+    color: #EAEBF1;
+    background-color: #EAEBF1;
+  }
+  
+  #c15 {
+    color: #A5002B;
+    background-color: #A5002B;
+  }
