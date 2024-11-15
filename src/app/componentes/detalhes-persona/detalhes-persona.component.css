@@ -1,0 +1,19 @@
+#arcana{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    padding: 10px 25px;
+    border-radius: 3px;
+    text-align: center;
+}
+#nome{
+    font-weight: bold;
+}
+
+.res-table{
+    background-color: #FAA622;
+}
+
+.valor{
+    background-color: #FFE52C;
+}
