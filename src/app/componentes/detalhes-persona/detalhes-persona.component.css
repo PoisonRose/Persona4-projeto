@@ -2,18 +2,75 @@
     background-color: black;
     color: white;
     font-weight: bolder;
+    height: 65px;
+    width: 120px;
     padding: 10px 25px;
     border-radius: 3px;
     text-align: center;
+    font-size: 200%;
 }
 #nome{
     font-weight: bold;
+    font-size: 200%;
+}
+
+.atributo{
+    color: #FFE52C; 
+    font-size: 135%; 
+    text-align: right;
 }
 
 .res-table{
     background-color: #FAA622;
+    padding: 5px 10px 2px 10px;
+    border-radius: 3px;
+    width: 40%;
+    height: 50px;
+}
+
+.icone-res{
+    height: 60px;
+    width: 60px;
+    text-align: center;
 }
 
 .valor{
     background-color: #FFE52C;
+    color: #FAA622;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 200%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.stats-nomes{
+    background-color: #FAA622; 
+    padding: 10px;
+}
+.stats-numeros{
+    padding: 10px;
+    width: 40%;
+}
+
+.barra{
+    width: 95%;
+}
+
+.barra-total{
+    width: 100%;
+    background-color: #FAA622;
+    height: 20px;
+    padding: 5px 5px 2px 5px;
+    border-radius: 5px;
+}
+.preenchimento{
+    height: 80%;
+    background-color: #FFFF80;
+    width: 0%;
+    border-radius: 5px;
+}
+
+.stats{
+    display: flex;
 }

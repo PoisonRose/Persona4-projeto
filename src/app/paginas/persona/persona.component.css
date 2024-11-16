@@ -1,14 +1,12 @@
 body{
     background-color: #FFE52C;
 }
-
+/*
 .arco-iris{
     position: fixed;
     top: 0;
     right: 0;
     height: 100vh;
-    display: flex;
-    align-items: stretch;
 }
 
 .arco-iris td{
@@ -16,13 +14,19 @@ body{
     padding: 0;
     margin: 0;
     color: transparent;
+    align-items: stretch;
+
+    flex-shrink: 0;
+    flex-grow: 0;
 }
 
 .arco-iris table{
     border-collapse: collapse;
     height: 100%;
 }
+*/
 
+/*
 #c1 {
     color: #C9BC72;
     background-color: #C9BC72;
@@ -97,3 +101,5 @@ body{
     color: #A5002B;
     background-color: #A5002B;
   }
+
+  */
