@@ -47,10 +47,12 @@
 .stats-nomes{
     background-color: #FAA622; 
     padding: 10px;
+    font-size: larger;
 }
 .stats-numeros{
     padding: 10px;
     width: 40%;
+    font-size: 250%;
 }
 
 .barra{
@@ -73,4 +75,22 @@
 
 .stats{
     display: flex;
+}
+
+
+.tabela-habilidades{
+    background-color: #FAA622;
+    color: #FFE52C;
+    font-size: 200%;
+    
+}
+.tabela-habilidades th:nth-of-type(even){
+    background-color: #FFFF80;
+    color: #FAA622;
+}
+
+.imagem-persona{
+    position: fixed;
+    right: 0;
+    top: 0;
 }
