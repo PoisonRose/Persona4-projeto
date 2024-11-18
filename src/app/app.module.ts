@@ -11,6 +11,7 @@ import { PesquisaComponent } from './componentes/pesquisa/pesquisa.component';
 import { BarraSkillComponent } from './componentes/barra-skill/barra-skill.component';
 import { PropriedadesSkillsComponent } from './componentes/propriedades-skills/propriedades-skills.component';
 import { DetalhesPersonaComponent } from './componentes/detalhes-persona/detalhes-persona.component';
+import { HeaderComponent } from './componentes/header/header.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { DetalhesPersonaComponent } from './componentes/detalhes-persona/detalhe
     PesquisaComponent,
     BarraSkillComponent,
     PropriedadesSkillsComponent,
-    DetalhesPersonaComponent
+    DetalhesPersonaComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

@@ -2,6 +2,16 @@ body{
     background-color: #FFE128
 }
 
+.header{
+    
+    display:flex;
+    justify-content: center;
+    padding: 15px;
+}
+.head{
+    padding: 0px 0px 0px 10px;
+}
+
 .pesquisa{
     display: flex;
     justify-content: center;
