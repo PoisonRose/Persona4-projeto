@@ -2,6 +2,16 @@ body{
     background-color: #FFE52C;
 }
 
+.voltar{
+  padding: 12px 10px;
+  width: 50px;
+  background-color: black;
+  border: 1px black;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
 .arco-iris{
     position: fixed;
     top: 0;
