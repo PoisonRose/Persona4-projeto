@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { CompendiumService } from '../../servico/compendium.service';
+import { PerfilComponent } from '../../componentes/perfil/perfil.component';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  styleUrl: './home.component.css', 
 })
 export class HomeComponent implements OnInit{
   constructor(private comp: CompendiumService){};
@@ -12,7 +13,7 @@ export class HomeComponent implements OnInit{
   personas:any = '';
 
   ngOnInit(): void {
-      this.comp.getLink("");
+      this.comp.getLink("?_page=1&_limit=4");
       this.comp.getAllPersonas().subscribe((data: any)=>{
         this.personas = data;
       });
