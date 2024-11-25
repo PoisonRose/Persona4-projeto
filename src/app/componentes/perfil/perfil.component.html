@@ -1,9 +1,9 @@
 <body>
     <div class="persona-card">
-        <div class="arcana">Arcana</div>
-        <div class="nome">Persona Name</div>
+        <div class="arcana">{{ personas[0].race }}</div>
+        <div class="nome">{{ personas[0].name }}</div>
         <div class="imagem">
-            <img src="" alt="img">
+            <img src="{{ personas[0].sprite }}" alt="img">
         </div>
     </div>
 </body>
