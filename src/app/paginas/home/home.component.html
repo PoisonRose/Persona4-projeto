@@ -7,16 +7,18 @@
         <input type="text" class="barra-pesquisa" placeholder="pesquisar..." #search (keyup.enter)="searchPersona(search.value)">
     </div>
     
-    
-    <div *ngFor="let persona of personas">
-        <div class="persona-card">
-            <div class="arcana">{{ persona.race }}</div>
-            <div class="nome">{{ persona.name }}</div>
-            <div class="imagem">
-                <img src="{{ persona.sprite }}" alt="img">
+    <a routerLink="/persona">
+        <div *ngFor="let persona of personas">
+            <div class="persona-card">
+                <div class="arcana">{{ persona.race }}</div>
+                <div class="nome">{{ persona.name }}</div>
+                <div class="imagem">
+                    <img src="{{ persona.sprite }}" alt="img">
+                </div>
             </div>
         </div>
-    </div>
+    </a>
+    
     
     <div class="buttons">
         <div style="padding: 0px 3px;">
