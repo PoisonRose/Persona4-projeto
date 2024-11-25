@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
+
 
 @Component({
   selector: 'app-pesquisa',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './pesquisa.component.css'
 })
 export class PesquisaComponent {
-
+ 
 }

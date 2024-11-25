@@ -11,9 +11,12 @@ export class HomeComponent implements OnInit{
   constructor(private comp: CompendiumService){};
 
   personas:any = '';
+  page: number = 0;
+
 
   ngOnInit(): void {
-      this.comp.getLink("?_page=1&_limit=4");
+
+      this.comp.getLink('');
       this.comp.getAllPersonas().subscribe((data: any)=>{
         this.personas = data;
       });
