@@ -13,7 +13,7 @@ export class PerfilComponent implements OnInit{
   personas:any = '';
 
   ngOnInit(): void {
-    this.comp.getLink("?name=Mothman");
+    this.comp.getLink("");
     this.comp.getAllPersonas().subscribe((data: any)=>{
       this.personas = data;
       console.log(data);

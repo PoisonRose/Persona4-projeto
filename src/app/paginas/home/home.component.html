@@ -9,7 +9,13 @@
     
     
     <div *ngFor="let persona of personas">
-        <app-perfil class="perfil"></app-perfil>
+        <div class="persona-card">
+            <div class="arcana">{{ persona.race }}</div>
+            <div class="nome">{{ persona.name }}</div>
+            <div class="imagem">
+                <img src="{{ persona.sprite }}" alt="img">
+            </div>
+        </div>
     </div>
     
     <div class="buttons">
