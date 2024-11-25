@@ -11,8 +11,6 @@ export class HomeComponent implements OnInit{
   constructor(private comp: CompendiumService){};
 
   personas:any = '';
-  page: number = 0;
-
 
   ngOnInit(): void {
 
@@ -31,6 +29,7 @@ export class HomeComponent implements OnInit{
   getPersona(){
     this.comp.getAllPersonas().subscribe((data: any)=>{
       this.personas = data;
+      console.log(data);
     });
   }
 }

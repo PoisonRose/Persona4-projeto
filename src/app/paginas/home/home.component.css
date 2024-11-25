@@ -76,3 +76,23 @@ body{
     width: auto;
     height: auto;
 }
+
+.barra-pesquisa{
+    padding: 10px 400px 10px 50px; /* deixe o espaço extra na esquerda para o ícone */
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: black;
+    color: #FFE128;
+    font-size:large;
+
+    /*imagem*/
+    background-image: url('/icones/magglass.png');
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+}
+
+.barra-pesquisa::placeholder{
+    color: darkgoldenrod;
+}
