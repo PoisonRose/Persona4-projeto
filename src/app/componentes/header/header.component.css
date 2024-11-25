@@ -12,4 +12,8 @@
     font-family: Arial;
     font-weight:bolder ;
 }
+a{
+    text-decoration: none;
+    color: #FFE128;
+}
 

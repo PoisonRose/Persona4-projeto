@@ -10,7 +10,7 @@ export class CompendiumService {
   }
 
   constructor(private http: HttpClient) { }
-  apiLink:string = this.getLink(`?name=izanagi`);
+  apiLink:string = this.getLink(``);
   getAllPersonas(){
     return this.http.get(this.apiLink);
   }
