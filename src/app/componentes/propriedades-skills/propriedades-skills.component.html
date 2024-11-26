@@ -1,13 +1,13 @@
 <div class="tabela-container" *ngFor="let skill of skills">
     <table class="barra">
         <tr class="items" align="center">
-            <td class="propriedade">{{ skill.a[1] }}</td>
-            <td class="propriedade">{{ skill.a[0] }}</td>
-            <td class="propriedade">Custo</td>
-            <td class="propriedade">Efeito</td>
-            <td class="propriedade">{{ skill.a[2] }}</td>
-            <td class="propriedade">{{ skill.b[0] }}</td>
-            <td class="propriedade">Aprendido Por</td>
+            <td class="propriedade" appHighlight>{{ skill.a[1] }}</td>
+            <td class="propriedade" appHighlight>{{ skill.a[0] }}</td>
+            <td class="propriedade" appHighlight>Custo</td>
+            <td class="propriedade" appHighlight>Efeito</td>
+            <td class="propriedade" appHighlight>{{ skill.a[2] }}</td>
+            <td class="propriedade" appHighlight>{{ skill.b[0] }}</td>
+            <td class="propriedade" appHighlight>Aprendido Por</td>
         </tr>
     </table>
 

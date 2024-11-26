@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CompendiumService } from '../../servico/compendium.service';
 import { TitleCasePipe } from '@angular/common';
 
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',

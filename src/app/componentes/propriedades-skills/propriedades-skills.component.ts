@@ -15,7 +15,6 @@ export class PropriedadesSkillsComponent implements OnInit{
   ngOnInit(): void {
       this.skill.getLink('');
       this.skill.getAllSkills().subscribe((data: any)=>{
-        console.log(data);
         this.skills = data;
       });
   }

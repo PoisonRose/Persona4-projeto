@@ -15,6 +15,7 @@ import { HeaderComponent } from './componentes/header/header.component';
 import { provideHttpClient } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { HoverDirective } from './diretivas/hover.directive';
+import { HighlightDirective } from './diretivas/highlight.directive';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { HoverDirective } from './diretivas/hover.directive';
     PropriedadesSkillsComponent,
     DetalhesPersonaComponent,
     HeaderComponent,
-    HoverDirective
+    HoverDirective,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,

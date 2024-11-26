@@ -9,7 +9,7 @@
     
     <section class="cardbox" *ngIf="personas">
         <div *ngFor="let persona of personas" class="cardbox">
-            <div class="persona-card">
+            <div class="persona-card" appHover>
                 <a routerLink="/persona">
                     <div class="arcana">{{ persona.race }}</div>
                     <div class="nome">{{ persona.name|titlecase }}</div>
