@@ -4,15 +4,15 @@
     </div>
 
     <div class="pesquisa">
-        <input type="text" class="barra-pesquisa" placeholder="pesquisar..." #search (keyup.enter)="searchPersona(search.value)">
+            <input type="text" class="barra-pesquisa" placeholder="pesquisar..." #search (keyup.enter)="searchPersona(search.value)">
     </div>
     
     <section class="cardbox">
         <div *ngFor="let persona of personas" class="cardbox">
             <div class="persona-card">
-                <a routerLink="/persona" [queryParams]="{ id: persona.id}">
+                <a routerLink="/persona">
                     <div class="arcana">{{ persona.race }}</div>
-                    <div class="nome">{{ persona.name }}</div>
+                    <div class="nome">{{ persona.name|titlecase }}</div>
                     <div class="imagem">
                         <img src="{{ persona.sprite }}" alt="img" class="persona-sprite">
                     </div>

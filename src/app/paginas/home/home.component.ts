@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CompendiumService } from '../../servico/compendium.service';
-import { PerfilComponent } from '../../componentes/perfil/perfil.component';
+import { TitleCasePipe } from '@angular/common';
 
 @Component({
   selector: 'app-home',

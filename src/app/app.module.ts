@@ -13,6 +13,7 @@ import { PropriedadesSkillsComponent } from './componentes/propriedades-skills/p
 import { DetalhesPersonaComponent } from './componentes/detalhes-persona/detalhes-persona.component';
 import { HeaderComponent } from './componentes/header/header.component';
 import { provideHttpClient } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { provideHttpClient } from '@angular/common/http';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AppRoutingModule
   ],
   providers: [
