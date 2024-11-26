@@ -36,7 +36,7 @@ body{
 }
 
 .persona-card{
-    width: 300px;
+    width: 200px;
     padding: auto;
     border-radius: 8px;
     text-align: center;
@@ -68,13 +68,7 @@ body{
     width: 200px;
     height: 200px;
     display: block;
-    
     border-radius: 5px;
-}
-
-.imagem img{
-    width: auto;
-    height: auto;
 }
 
 .barra-pesquisa{
@@ -95,4 +89,19 @@ body{
 
 .barra-pesquisa::placeholder{
     color: darkgoldenrod;
+}
+
+.cardbox{
+    display: grid;
+    grid-template-columns: 300px 300px ;
+    justify-content:space-evenly;
+    
+}
+
+.persona-sprite{
+    
+    object-fit: cover;
+    object-position: 0 -80%;
+    width: 300px;
+    height: 300px;
 }
