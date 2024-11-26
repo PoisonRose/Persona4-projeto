@@ -21,7 +21,7 @@ export class HomeComponent implements OnInit{
   }
 
   searchPersona(input:string){
-    this.comp.getLink(`?name=${input}`);
+    this.comp.getLink(`?name=${input.toLowerCase()}`);
     console.log(input);
     this.getPersona();
   }

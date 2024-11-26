@@ -7,7 +7,7 @@
             <input type="text" class="barra-pesquisa" placeholder="pesquisar..." #search (keyup.enter)="searchPersona(search.value)">
     </div>
     
-    <section class="cardbox">
+    <section class="cardbox" *ngIf="personas">
         <div *ngFor="let persona of personas" class="cardbox">
             <div class="persona-card">
                 <a routerLink="/persona">
@@ -19,6 +19,10 @@
                 </a>
             </div>
         </div>
+    </section>
+
+    <section *ngIf="!personas">
+        <p>carregando...</p>
     </section>
     
     <div class="buttons">

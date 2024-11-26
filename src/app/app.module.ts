@@ -14,6 +14,7 @@ import { DetalhesPersonaComponent } from './componentes/detalhes-persona/detalhe
 import { HeaderComponent } from './componentes/header/header.component';
 import { provideHttpClient } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { HoverDirective } from './diretivas/hover.directive';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FormsModule } from '@angular/forms';
     BarraSkillComponent,
     PropriedadesSkillsComponent,
     DetalhesPersonaComponent,
-    HeaderComponent
+    HeaderComponent,
+    HoverDirective
   ],
   imports: [
     BrowserModule,
