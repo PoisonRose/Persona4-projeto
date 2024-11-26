@@ -7,7 +7,7 @@ import { SkillListComponent } from './paginas/skill-list/skill-list.component';
 const routes: Routes = [
   {path:'', redirectTo:'home', pathMatch:'full'},
   {path:'home', component:HomeComponent},
-  {path:'persona/:id', component:PersonaComponent},
+  {path:'persona', component:PersonaComponent},
   {path:'skill-list', component:SkillListComponent}
 ];
 
