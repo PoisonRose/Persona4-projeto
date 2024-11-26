@@ -11,6 +11,7 @@
     border-color: #faa622;
 
     width: 80%;
+    table-layout: fixed;
 }
 
 .barra td{
@@ -28,6 +29,6 @@
     align-items: center;
 }
 
-.proprieade{
+.propriedade{
     
 }

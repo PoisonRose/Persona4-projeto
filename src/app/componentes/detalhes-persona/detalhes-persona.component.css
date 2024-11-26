@@ -89,9 +89,18 @@
     color: #FAA622;
 }
 
-.imagem-persona{
+.div-imagem-persona{
     position: fixed;
     right: 0;
-    top: 0;
+    bottom: 0;
     z-index: 1;
+}
+
+.imagem-persona{
+    width: 950px;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    object-fit: contain;
 }
