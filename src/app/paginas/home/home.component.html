@@ -1,16 +1,24 @@
 <body>
     <div class="header">
-        <app-header class="head"></app-header><!-- TODO: colocar barra de transição entre páginas HOME(atual) e Skill List -->
+        <app-header></app-header>
     </div>
 
     <div class="pesquisa">
-        <app-pesquisa class="barra-pesquisa"></app-pesquisa>
+        <input type="text" class="barra-pesquisa" placeholder="pesquisar..." #search (keyup.enter)="searchPersona(search.value)">
     </div>
     
+    <a routerLink="/persona">
+        <div *ngFor="let persona of personas">
+            <div class="persona-card">
+                <div class="arcana">{{ persona.race }}</div>
+                <div class="nome">{{ persona.name }}</div>
+                <div class="imagem">
+                    <img src="{{ persona.sprite }}" alt="img">
+                </div>
+            </div>
+        </div>
+    </a>
     
-    <div>
-        <app-perfil class="perfil"></app-perfil>
-    </div>
     
     <div class="buttons">
         <div style="padding: 0px 3px;">

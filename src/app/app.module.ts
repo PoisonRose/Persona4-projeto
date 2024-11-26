@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
+import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,6 +12,7 @@ import { BarraSkillComponent } from './componentes/barra-skill/barra-skill.compo
 import { PropriedadesSkillsComponent } from './componentes/propriedades-skills/propriedades-skills.component';
 import { DetalhesPersonaComponent } from './componentes/detalhes-persona/detalhes-persona.component';
 import { HeaderComponent } from './componentes/header/header.component';
+import { provideHttpClient } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,7 @@ import { HeaderComponent } from './componentes/header/header.component';
     AppRoutingModule
   ],
   providers: [
-    provideClientHydration()
+    provideHttpClient()
   ],
   bootstrap: [AppComponent]
 })
