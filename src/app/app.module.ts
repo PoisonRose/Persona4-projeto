@@ -16,6 +16,7 @@ import { provideHttpClient } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { HoverDirective } from './diretivas/hover.directive';
 import { HighlightDirective } from './diretivas/highlight.directive';
+import { ToArrayPipe } from './pipes/to-array.pipe';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { HighlightDirective } from './diretivas/highlight.directive';
     DetalhesPersonaComponent,
     HeaderComponent,
     HoverDirective,
-    HighlightDirective
+    HighlightDirective,
+    ToArrayPipe
   ],
   imports: [
     BrowserModule,

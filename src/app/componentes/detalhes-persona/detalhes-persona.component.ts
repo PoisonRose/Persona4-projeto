@@ -14,7 +14,6 @@ export class DetalhesPersonaComponent implements OnInit{
   
   ngOnInit(): void {
       this.route.queryParamMap.subscribe((params) => {
-        console.log(params.get('id'));
         this.comp.getLink(`/${params.get('id')}`);
         this.comp.getAllPersonas().subscribe((data: any)=>{
           console.log(data);
