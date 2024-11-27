@@ -87,6 +87,7 @@
 .tabela-habilidades th:nth-of-type(even){
     background-color: #FFFF80;
     color: #FAA622;
+    border: 5px solid #FFFF80;
 }
 
 .div-imagem-persona{
@@ -103,4 +104,12 @@
     bottom: 0;
     right: 0;
     object-fit: contain;
+}
+
+.nome-skill{
+    justify-content: center;
+    text-align: center;
+    border: 4px solid #FFFF80;
+    border-radius: 5px;
+    font-weight: bolder;
 }
