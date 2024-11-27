@@ -1,8 +1,8 @@
 <div class="card">
     <table>
         <tr>
-            <td id="arcana">{{ personas[0].race }}</td>
-            <td id="nome">{{ personas[0].name|titlecase }}</td>
+            <td id="arcana">{{ personas.race }}</td>
+            <td id="nome">{{ personas.name|titlecase }}</td>
         </tr>
     </table>
 </div>
@@ -75,7 +75,7 @@
 
     <table class="stats-numeros">
         <tr>
-            <td>{{personas[0].stats[0]}}</td>
+            <td>{{personas.stats[0]}}</td>
             <td class="barra">
                 <div class="barra-total">
                     <div class="preenchimento" id="preenchimento-St"></div>
@@ -84,7 +84,7 @@
         </tr>
 
         <tr>
-            <td>{{personas[0].stats[1]}}</td>
+            <td>{{personas.stats[1]}}</td>
             <td class="barra">
                 <div class="barra-total">
                     <div class="preenchimento" id="preenchimento-Ma"></div>
@@ -93,7 +93,7 @@
         </tr>
 
         <tr>
-            <td>{{personas[0].stats[2]}}</td>
+            <td>{{personas.stats[2]}}</td>
             <td class="barra">
                 <div class="barra-total">
                     <div class="preenchimento" id="preenchimento-En"></div>
@@ -102,7 +102,7 @@
         </tr>
 
         <tr>
-            <td>{{personas[0].stats[3]}}</td>
+            <td>{{personas.stats[3]}}</td>
             <td class="barra">
                 <div class="barra-total">
                     <div class="preenchimento" id="preenchimento-Ag"></div>
@@ -111,7 +111,7 @@
         </tr>
         
         <tr>
-            <td>{{personas[0].stats[4]}}</td>
+            <td>{{personas.stats[4]}}</td>
             <td class="barra">
                 <div class="barra-total">
                     <div class="preenchimento" id="preenchimento-Lu"></div>
@@ -125,27 +125,15 @@
     <table class="tabela-habilidades">
         <th colspan="7">Habilidades Aprendidas</th>
         <tr>
-            <th>Elemento</th>
             <th>Nome</th>
-            <th>Custo</th>
-            <th>Efeito</th>
-            <th>Alvo</th>
-            <th>Rank</th>
-            <th>Lvl</th>
         </tr>
             <!--TODO tentar resolver com pipes-->
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+            <tr *ngFor="let skill of personas.skills">
+                <td>{{skill}}</td>
             </tr>
     </table>
 </div>
 
 <div class="div-imagem-persona">
-    <img class="imagem-persona" src="{{ personas[0].sprite }}" alt="">
+    <img class="imagem-persona" src="{{ personas.sprite }}" alt="">
 </div>
