@@ -78,7 +78,7 @@
             <td>{{personas.stats[0]}}</td>
             <td class="barra">
                 <div class="barra-total">
-                    <div class="preenchimento" id="preenchimento-St"></div>
+                    <div class="preenchimento" id="preenchimento-St" [style.width.%]="personas.stats[0]+1"></div>
                 </div>
             </td>
         </tr>
@@ -87,7 +87,7 @@
             <td>{{personas.stats[1]}}</td>
             <td class="barra">
                 <div class="barra-total">
-                    <div class="preenchimento" id="preenchimento-Ma"></div>
+                    <div class="preenchimento" id="preenchimento-Ma" [style.width.%]="personas.stats[1]+1"></div>
                 </div>
             </td>
         </tr>
@@ -96,7 +96,7 @@
             <td>{{personas.stats[2]}}</td>
             <td class="barra">
                 <div class="barra-total">
-                    <div class="preenchimento" id="preenchimento-En"></div>
+                    <div class="preenchimento" id="preenchimento-En" [style.width.%]="personas.stats[2]+1"></div>
                 </div>
             </td>
         </tr>
@@ -105,7 +105,7 @@
             <td>{{personas.stats[3]}}</td>
             <td class="barra">
                 <div class="barra-total">
-                    <div class="preenchimento" id="preenchimento-Ag"></div>
+                    <div class="preenchimento" id="preenchimento-Ag" [style.width.%]="personas.stats[3]+1"></div>
                 </div>
             </td>
         </tr>
@@ -114,7 +114,11 @@
             <td>{{personas.stats[4]}}</td>
             <td class="barra">
                 <div class="barra-total">
+<<<<<<< HEAD
                     <div class="preenchimento" id="preenchimento-Lu" style.width="{{personas.stats[4]}}"></div>
+=======
+                    <div class="preenchimento" id="preenchimento-Lu" [style.width.%]="personas.stats[4]+1"></div>
+>>>>>>> 788c69d16a9fe1419406c08e306d589d71f69556
                 </div>
             </td>
         </tr>
@@ -129,7 +133,7 @@
         </tr>
             <!--TODO tentar resolver com pipes-->
             <tr *ngFor="let skill of personas.skills">
-                <td>{{skill}}</td>
+                <td class="nome-skill">{{skill}}</td>
             </tr>
     </table>
 </div>
