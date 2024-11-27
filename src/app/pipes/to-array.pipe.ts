@@ -13,7 +13,8 @@ export class ToArrayPipe implements PipeTransform {
       value.substring(4,5), 
       value.substring(5,6),
       value.substring(6,7),
-      value.substring(7,8)]
+      value.substring(7,8)
+    ]
 
     return resists;
   }

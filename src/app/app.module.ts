@@ -17,6 +17,7 @@ import { FormsModule } from '@angular/forms';
 import { HoverDirective } from './diretivas/hover.directive';
 import { HighlightDirective } from './diretivas/highlight.directive';
 import { ToArrayPipe } from './pipes/to-array.pipe';
+import { ResistsPipe } from './pipes/resists.pipe';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ToArrayPipe } from './pipes/to-array.pipe';
     HeaderComponent,
     HoverDirective,
     HighlightDirective,
-    ToArrayPipe
+    ToArrayPipe,
+    ResistsPipe
   ],
   imports: [
     BrowserModule,

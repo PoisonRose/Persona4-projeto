@@ -7,7 +7,7 @@ export class HighlightDirective {
 
   @HostBinding('style.background-color') backgroundColor = '';
   @HostBinding('style.color') fontColor = '';
-  @HostBinding('style.transition') transition = 'all 0.5s';
+  @HostBinding('style.transition') transition = 'all 0.3s';
 
   @HostListener('mouseenter') transicao(){
     this.backgroundColor = '#ffff80';
